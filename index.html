@@ -12,8 +12,13 @@
       rel="stylesheet"
     />
     <head>
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-mini.png">
-</head>
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./images/logo-mini.png"
+      />
+    </head>
   </head>
   <body>
     <header class="navbar">
@@ -23,12 +28,12 @@
         </div>
         <nav class="nav-links">
           <a href="#speakers">Speakers</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#tracks">Tracks</a>
-          <a href="#venue">Venue</a>
-          <a href="#blog">Blog</a>
+          <a href="#register">Schedule</a>
+          <a href="#register">Tickets</a>
+          <a href="#register">Venue</a>
+          <a href="#speakers">Blog</a>
         </nav>
-        <a href="#" class="btn btn-nav">Register Now</a>
+        <a href="#register" class="btn btn-nav">Register Now</a>
       </div>
     </header>
 
@@ -41,7 +46,7 @@
           conference of 2026. Three days of cutting-edge talks, hands-on
           workshops, and meaningful connections.
         </p>
-        <a href="#" class="btn btn-primary">Register Now</a>
+        <a href="#register" class="btn btn-primary">Register Now</a>
       </div>
     </section>
 
@@ -153,92 +158,82 @@
       </div>
     </section>
 
-<!-- CTA Section -->
-<section class="cta-section">
-    <div class="cta-container">
-        <span class="cta-badge">
-            Early Bird Registration Ends Soon
-        </span>
-        <h2>
-            Ready to Join <span>DevConf 2026?</span>
-        </h2>
-        <p>
-            Be part of one of the biggest developer conferences of the year.
-            Learn from world-class speakers, build valuable connections,
-            and level up your career.
-        </p>
-        <div class="cta-stats">
-            <div class="stat">
-                <h3>4,000+</h3>
-                <span>Developers</span>
-            </div>
-            <div class="stat">
-                <h3>120+</h3>
-                <span>Speakers</span>
-            </div>
-            <div class="stat">
-                <h3>3 Days</h3>
-                <span>Learning</span>
-            </div>
+    <section class="cta-section" id="register">
+      <div class="cta-container">
+        <div class="cta-content">
+          <span class="badge"> Early Bird Ends Soon</span>
+          <h2>Reserve Your Seat Today</h2>
+          <p>
+            Join 4,000+ developers for three unforgettable days of learning,
+            networking, and innovation.
+          </p>
+          <ul class="cta-features">
+            <li>✔ 120+ Industry Speakers</li>
+            <li>✔ Hands-on Workshops</li>
+            <li>✔ Networking Sessions</li>
+            <li>✔ Certificate of Attendance</li>
+          </ul>
         </div>
-
-        <div class="cta-buttons">
-            <a href="#" class="primary-btn">
-                Register Now
-            </a>
-            <a href="#" class="secondary-btn">
-                View Schedule
-            </a>
+        <div class="cta-form">
+          <h3>Register Now</h3>
+          <form>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="phone" placeholder="Mobile Number" required />
+            <select required>
+              <option value="">Select Ticket</option>
+              <option>Standard Pass</option>
+              <option>Pro Pass</option>
+              <option>Team Pass</option>
+            </select>
+            <button type="submit">Register Now</button>
+          </form>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer class="footer">
-    <div class="container">
+    <footer class="footer">
+      <div class="container">
         <div class="footer-top">
-            <div class="footer-brand">
-                <img src="./images/footer-logo.png" alt="Dev Confernce 2026">
-                <p>
-                    Empowering developers to build the future
-                    through innovation, collaboration and learning.
-                </p>
-            
-            </div>
+          <div class="footer-brand">
+            <img src="./images/footer-logo.png" alt="Dev Confernce 2026" />
+            <p>
+              Empowering developers to build the future through innovation,
+              collaboration and learning.
+            </p>
+          </div>
 
-            <div class="footer-links">
-                <div>
-                    <h4>Explore</h4>
-                    <a href="#">Speakers</a>
-                    <a href="#">Schedule</a>
-                    <a href="#">Venue</a>
-                </div>
-                <div>
-                    <h4>Event</h4>
-                    <a href="#">Pricing</a>
-                    <a href="#">FAQ</a>
-                    <a href="#">Register</a>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <a href="#">hello@devconf.com</a>
-                    <a href="#">+88 1718958526</a>
-                    <a href="#">Dhaka, Bangladesh</a>
-                </div>
+          <div class="footer-links">
+            <div>
+              <h4>Explore</h4>
+              <a href="#speakers">Speakers</a>
+              <a href="#register">Schedule</a>
+              <a href="#register">Venue</a>
             </div>
+            <div>
+              <h4>Event</h4>
+              <a href="#pricing">Pricing</a>
+              <a href="#">FAQ</a>
+              <a href="#register">Register</a>
+            </div>
+            <div>
+              <h4>Contact</h4>
+              <a href="#">hello@devconf.com</a>
+              <a href="#">+8801718958526</a>
+              <a href="#">Dhaka, Bangladesh</a>
+            </div>
+          </div>
         </div>
 
         <div class="footer-bottom">
-            <p>
-                © 2026 DevConf by Shahriyer H. Sakib
-            </p>
-            <div>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Cookies</a>
-            </div>
+          <p>© 2026 DevConf by Shahriyer H. Sakib</p>
+          <div>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookies</a>
+          </div>
         </div>
-    </div>
-</footer>
-
+      </div>
+    </footer>
   </body>
 </html>
